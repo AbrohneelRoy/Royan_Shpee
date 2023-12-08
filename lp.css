@@ -1,0 +1,63 @@
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShUfTsO5Li54N28Lmbog8TREilSxG_F0w4ZA&usqp=CAU);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+
+
+}
+
+.nb {
+    width:50%;
+    margin: auto;
+    padding: 1px 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width: 500px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.nb ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    transition: 0.5s;
+
+}
+
+.nb ul li a
+{
+    text-decoration: none;
+    color: goldenrod;
+    text-transform: uppercase;
+}
+
+.nb ul li:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.head
+{
+    color: goldenrod;
+    padding: 15px;
+    margin: 25px;
+    font-family: sans-serif;
+}
+
+.cv
+{
+    padding: 9%;
+    margin: 0px;
+    font-family: sans-serif; 
+}

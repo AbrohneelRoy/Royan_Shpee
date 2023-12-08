@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Royan Shopee</title>
+<link rel="stylesheet" type="text/css" href="log.css">
+</head>
+<body>
+	
+
+
+<div class="new">
+	<a href="file:///C:/Abrohneel%20Roy/HTML/Project/Second%20Project/term.html">Terms & Conditionㅤ
+	</a>
+</div>
+<div class="hello">
+<center>
+<img src="C:\Abrohneel Roy\HTML\Project\Second Project\Images\Royan Shopee.png" width="450" height="250" class="ai"></center>
+	
+
+<h1 style="font-size:300%;">Royan Shopee</h1>
+
+	<p>Username:</p>
+<input type="text" placeholder='Enter your Username' class='text' id="uname">
+<p>Password:</p>
+  <input type="password" id="pass" placeholder='••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••' class='password'>
+  <br>
+  <br>
+	<center><a href="file:///C:/Abrohneel%20Roy/HTML/Project/Second%20Project/homeone.html">
+		<button onclick="return checkEmail()">Login</button>
+	</a>
+	<br>
+	<br>
+
+<a href="file:///C:/Abrohneel%20Roy/HTML/Project/Second%20Project/forgot.html">Forgot Password</a>
+</center>
+
+
+</div>
+<script>
+	
+	     function checkEmail()
+		 {
+	         var uname=document.getElementById("uname");
+	         var pass=document.getElementById("pass");
+	        var email=document.getElementById("email");
+			 if(uname.value.trim()=="")
+             {
+                alert("Please fill the username");
+                uname.style.border = "solid 3px red";
+                return false;
+             }
+			 else if(pass.value.trim()=="")
+             {
+                alert("Please fill the password");
+                pass.style.border = "solid 3px red";
+                return false;
+             }
+			 else if(email.value.trim()=="")
+             {
+                alert("Please fill the email");
+                email.style.border = "solid 3px red";
+                return false;
+             }
+             else{
+                return true;
+             }
+	    }
+</script>
+</body>
+</html>
